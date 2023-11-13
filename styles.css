@@ -9,9 +9,9 @@ body {
 .cat-head {
     width: 205px;
     height: 180px;
-    border: 1px solid #000;
+    border: 1px solid #bfb9b9;
     border-radius: 46%;
-    background: linear-gradient(#5e5e5e 85%, #45454f 100%);
+    background: linear-gradient(#dfdede 85%, #d2d2d5 100%);
     position: absolute;
     top: 0;
     left: 0;
@@ -23,7 +23,7 @@ body {
 .cat-left-ear {
     border-left: 35px solid transparent;
     border-right: 35px solid transparent;
-    border-bottom: 70px solid #5e5e5e;
+    border-bottom: 70px solid #dfdede;
     position: absolute;
     top: -26px;
     left: -31px;
@@ -42,14 +42,14 @@ body {
     border-top-right-radius: 10px;
     border-left: 35px solid transparent;
     border-right: 35px solid transparent;
-    border-bottom: 70px solid #5e5e5e;
+    border-bottom: 70px solid #dfdede;
     z-index: 1;
 }
 
 .cat-left-inner-ear {
     border-left: 20px solid transparent;
     border-right: 20px solid transparent;
-    border-bottom: 40px solid #3b3b4f;
+    border-bottom: 40px solid #aeaeb8;
     position: absolute;
     top: 22px;
     left: -20px;
@@ -63,7 +63,7 @@ body {
 .cat-right-inner-ear {
     border-left: 20px solid transparent;
     border-right: 20px solid transparent;
-    border-bottom: 40px solid #3b3b4f;
+    border-bottom: 40px solid #aeaeb8;
     position: absolute;
     top:22px;
     left: -20px;
@@ -203,4 +203,21 @@ body {
     top: 134px;
     left: 109px;
     transform: rotate(3deg);
+}
+
+
+
+.title {
+    font-family: 'Lobster', cursive;
+    font-size: 2rem;
+    text-align: center;
+    color: #000;
+    margin-top: 15%;
+    
+}
+
+@media (max-width: 768px) {
+.title {
+    margin-top: 40%;
+}
 }
